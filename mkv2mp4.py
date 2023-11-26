@@ -66,11 +66,6 @@ class Converter( object ):
 def main(args):
     converter = Converter( path = args.path, verbose = args.verbose )
 
-
-
-#    for fname in converter.outputs:
-#    print( fname )
-
     converter.inplace_convert()
     
     pdb.set_trace()
